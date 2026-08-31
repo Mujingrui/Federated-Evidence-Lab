@@ -1,0 +1,74 @@
+{
+  "site": "Xena_TCGA_SKCM",
+  "analysis_type": "local_summary_statistics",
+  "cohort": {
+    "clinical_patients": 470,
+    "mutation_evaluable_patients": 470,
+    "braf_v600_hotspot_patients": 204,
+    "braf_wild_type_patients": 266,
+    "primary_expression_patients": 104
+  },
+  "braf_expression_by_mutation_status": {
+    "braf_mutated_n": 51,
+    "braf_wild_type_n": 53,
+    "braf_mutated_mean": 7.033435294117647,
+    "braf_wild_type_mean": 6.707028301886793,
+    "mean_difference_mutated_minus_wild_type": 0.32640699223085345,
+    "cohens_d": 0.34933075215707277,
+    "two_sided_permutation_p_value": 0.0746925307469253
+  },
+  "clinical_characteristics_by_mutation_status": [
+    {
+      "group": "BRAF hotspot",
+      "n": 204,
+      "female_n": 81,
+      "female_percent": 39.705882352941174,
+      "median_age": 54.0,
+      "primary_tumour_n": 51
+    },
+    {
+      "group": "BRAF wild type",
+      "n": 266,
+      "female_n": 99,
+      "female_percent": 37.21804511278196,
+      "median_age": 63.5,
+      "primary_tumour_n": 53
+    }
+  ],
+  "braf_mutation_overall_survival": {
+    "braf_mutated_n": 199,
+    "braf_wild_type_n": 261,
+    "braf_mutated_deaths": 89,
+    "braf_wild_type_deaths": 132,
+    "analysis_n": 460,
+    "deaths": 221,
+    "hazard_ratio": 0.7444291498603157,
+    "95ci_lower": 0.5665750315630584,
+    "95ci_upper": 0.9781136271270261,
+    "p_value": 0.03410118217270599
+  },
+  "braf_expression_overall_survival": {
+    "analysis_n": 104,
+    "deaths": 29,
+    "hazard_ratio": 1.274146053201464,
+    "95ci_lower": 0.6050158157971027,
+    "95ci_upper": 2.6833152497839903,
+    "p_value": 0.5237414367051436,
+    "expression_median_split_n": 104
+  },
+  "analysis_definitions": {
+    "hotspot": "GDC transcript annotation p.V640E or p.V640G, corresponding to the canonical BRAF V600 activating hotspot",
+    "expression": "BRAF row from Xena TCGA.SKCM.sampleMap/HiSeqV2; primary-tumour sample when available",
+    "survival": "Dead=event; living patients use latest follow-up"
+  },
+  "source_files": [
+    "SKCM/HiSeqV2.gz",
+    "SKCM/SKCM_clinicalMatrix",
+    "SKCM/TCGA-SKCM.somaticmutation_wxs.tsv.gz"
+  ],
+  "limitations": [
+    "Observational TCGA data; survival models are unadjusted",
+    "Only 104 patients have primary-tumour expression in the legacy Xena matrix",
+    "This is aggregate-only output; patient rows are not included"
+  ]
+}
