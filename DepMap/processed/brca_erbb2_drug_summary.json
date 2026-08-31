@@ -1,0 +1,10 @@
+{
+  "site": "BRCA-ERBB2",
+  "cell_lines_total": 11,
+  "mutated_lines": 1,
+  "wild_type_lines": 10,
+  "drugs_tested": 0,
+  "known_control_results": [],
+  "top_exploratory_hits": [],
+  "warning": "Exploratory: small mutated group; AUC associations are not causal."
+}
