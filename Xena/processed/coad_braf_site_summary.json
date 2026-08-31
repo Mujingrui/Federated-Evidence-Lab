@@ -1,0 +1,68 @@
+{
+  "site": "Xena_TCGA_COAD",
+  "analysis_type": "local_summary_statistics",
+  "cohort": {
+    "clinical_patients": 458,
+    "mutation_evaluable_patients": 458,
+    "altered_patients": 50,
+    "wild_type_patients": 408,
+    "primary_expression_patients": 283
+  },
+  "expression_by_mutation_status": {
+    "altered_n": 35,
+    "wild_type_n": 248,
+    "altered_mean": 6.4620942857142865,
+    "wild_type_mean": 6.7675967741935485,
+    "mean_difference": -0.3055024884792621,
+    "cohens_d": -0.6124420656881463
+  },
+  "clinical_characteristics_by_mutation_status": [
+    {
+      "group": "BRAF altered",
+      "n": 50,
+      "female_n": 35,
+      "female_percent": 70.0,
+      "median_age": 74.5
+    },
+    {
+      "group": "BRAF wild type",
+      "n": 408,
+      "female_n": 181,
+      "female_percent": 44.36274509803921,
+      "median_age": 68.0
+    }
+  ],
+  "mutation_overall_survival": {
+    "analysis_n": 454,
+    "deaths": 101,
+    "hazard_ratio": 1.0867238277469173,
+    "95ci_lower": 0.5943003819609797,
+    "95ci_upper": 1.987157864338124,
+    "p_value": 0.7870925919338547
+  },
+  "expression_overall_survival": {
+    "note": "Exploratory median split among patients with primary expression",
+    "analysis_n": 280,
+    "deaths": 68,
+    "hazard_ratio": 1.3330091112841722,
+    "95ci_lower": 0.8250683619507686,
+    "95ci_upper": 2.1536558335182487,
+    "p_value": 0.24024507636400272
+  },
+  "analysis_definitions": {
+    "gene": "BRAF",
+    "alteration": "COAD BRAF uses p.V640E (canonical V600E transcript equivalent); BRCA ERBB2 and GBM EGFR use nonsynonymous coding mutations excluding synonymous, splice and truncating annotations",
+    "expression": "Gene-level HiSeqV2 expression; primary tumour sample when available",
+    "survival": "Dead=event; living patients use latest follow-up"
+  },
+  "source_files": [
+    "COAD/HiSeqV2.gz",
+    "COAD/COAD_clinicalMatrix",
+    "COAD/TCGA-COAD.somaticmutation_wxs.tsv.gz"
+  ],
+  "limitations": [
+    "Observational TCGA data; survival models are unadjusted",
+    "Altered-group definitions are exploratory except the COAD BRAF V600E hotspot",
+    "Aggregate output only; no patient-level records"
+  ]
+}
