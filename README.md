@@ -12,7 +12,7 @@ Privacy-preserving biomarker–drug evidence integration across independent hosp
 ## Federated design
 Hospital A/B analyze local patient data. Lab A/B analyze local cell-line and PRISM drug-response data. Only aggregate counts, moments, effect sizes, p-values, survival summaries, and quality flags are transferred to the central agent. Raw identifiers and individual measurements remain local.
 
-## Architecture (what each component does)
+## Architecture (what each file does and algorithm design)
 
 | Component | Role |
 |---|---|
