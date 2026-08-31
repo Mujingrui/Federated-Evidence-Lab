@@ -1,0 +1,273 @@
+{
+  "site": "SKCM-BRAF",
+  "cell_lines_total": 11,
+  "mutated_lines": 7,
+  "wild_type_lines": 4,
+  "drugs_tested": 1460,
+  "known_control_results": [
+    {
+      "drug": "DABRAFENIB (BRD:BRD-K09951645-001-11-8)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.6119882783372017,
+      "wild_type_mean_auc": 0.8293184816049108,
+      "auc_difference_mut_minus_wt": -0.21733020326770913,
+      "permutation_p": 0.10578842315369262
+    },
+    {
+      "drug": "VEMURAFENIB (BRD:BRD-K56343971-001-14-8)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8194673708306656,
+      "wild_type_mean_auc": 0.9786597339787262,
+      "auc_difference_mut_minus_wt": -0.15919236314806062,
+      "permutation_p": 0.03792415169660679
+    },
+    {
+      "drug": "LAPATINIB (BRD:BRD-K19687926-001-04-1)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.9597098227678847,
+      "wild_type_mean_auc": 0.9888631855164077,
+      "auc_difference_mut_minus_wt": -0.029153362748522982,
+      "permutation_p": 0.2634730538922156
+    },
+    {
+      "drug": "TUCATINIB (BRD:BRD-K26026438-001-01-0)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.9355074584516336,
+      "wild_type_mean_auc": 0.931222224672943,
+      "auc_difference_mut_minus_wt": 0.004285233778690611,
+      "permutation_p": 0.9261477045908184
+    },
+    {
+      "drug": "ERLOTINIB (BRD:BRD-K70401845-001-15-7)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.932710907949066,
+      "wild_type_mean_auc": 0.9244306550180774,
+      "auc_difference_mut_minus_wt": 0.008280252930988552,
+      "permutation_p": 0.720558882235529
+    },
+    {
+      "drug": "GEFITINIB (BRD:BRD-K64052750-001-22-5)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.958343734781722,
+      "wild_type_mean_auc": 0.94810974800111,
+      "auc_difference_mut_minus_wt": 0.010233986780611937,
+      "permutation_p": 0.6686626746506986
+    },
+    {
+      "drug": "OSIMERTINIB (BRD:BRD-K42805893-001-04-9)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.9026891614218788,
+      "wild_type_mean_auc": 0.8895149081687166,
+      "auc_difference_mut_minus_wt": 0.013174253253162238,
+      "permutation_p": 0.812375249500998
+    },
+    {
+      "drug": "TRAMETINIB (BRD:BRD-K12343256-001-14-7)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.49082851993103505,
+      "wild_type_mean_auc": 0.4648511765651475,
+      "auc_difference_mut_minus_wt": 0.02597734336588753,
+      "permutation_p": 0.846307385229541
+    },
+    {
+      "drug": "AFATINIB (BRD:BRD-K66175015-001-12-4)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8699043734866464,
+      "wild_type_mean_auc": 0.8339771292933935,
+      "auc_difference_mut_minus_wt": 0.03592724419325288,
+      "permutation_p": 0.3073852295409182
+    }
+  ],
+  "top_exploratory_hits": [
+    {
+      "drug": "DABRAFENIB (BRD:BRD-K09951645-001-11-8)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.6119882783372017,
+      "wild_type_mean_auc": 0.8293184816049108,
+      "auc_difference_mut_minus_wt": -0.21733020326770913,
+      "permutation_p": 0.10578842315369262
+    },
+    {
+      "drug": "ENCORAFENIB (BRD:BRD-A56085258-001-01-8)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.6914666747124133,
+      "wild_type_mean_auc": 0.8694841647009067,
+      "auc_difference_mut_minus_wt": -0.17801748998849343,
+      "permutation_p": 0.08383233532934131
+    },
+    {
+      "drug": "VEMURAFENIB (BRD:BRD-K56343971-001-14-8)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8194673708306656,
+      "wild_type_mean_auc": 0.9786597339787262,
+      "auc_difference_mut_minus_wt": -0.15919236314806062,
+      "permutation_p": 0.03792415169660679
+    },
+    {
+      "drug": "GTP-14564 (BRD:BRD-K16664969-001-03-3)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8679982498739717,
+      "wild_type_mean_auc": 0.9821024513154897,
+      "auc_difference_mut_minus_wt": -0.114104201441518,
+      "permutation_p": 0.07385229540918163
+    },
+    {
+      "drug": "BIRABRESIB (BRD:BRD-K43471985-001-03-0)",
+      "mutated_n": 4,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.7399280015324751,
+      "wild_type_mean_auc": 0.8244086706438203,
+      "auc_difference_mut_minus_wt": -0.08448066911134522,
+      "permutation_p": 0.3093812375249501
+    },
+    {
+      "drug": "NU-6027 (BRD:BRD-K03294269-001-08-0)",
+      "mutated_n": 5,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.9120832099929812,
+      "wild_type_mean_auc": 0.9933922908307322,
+      "auc_difference_mut_minus_wt": -0.08130908083775101,
+      "permutation_p": 0.06786427145708583
+    },
+    {
+      "drug": "OXAZEPAM (BRD:BRD-A50049929-001-01-9)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8903881223541958,
+      "wild_type_mean_auc": 0.9673801657818687,
+      "auc_difference_mut_minus_wt": -0.07699204342767285,
+      "permutation_p": 0.08183632734530938
+    },
+    {
+      "drug": "NSC-663284 (BRD:BRD-K03109492-001-02-2)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8010368922125798,
+      "wild_type_mean_auc": 0.8774461655866472,
+      "auc_difference_mut_minus_wt": -0.07640927337406744,
+      "permutation_p": 0.09181636726546906
+    },
+    {
+      "drug": "AMG-337 (BRD:BRD-K27061362-001-01-6)",
+      "mutated_n": 6,
+      "wild_type_n": 3,
+      "mutated_mean_auc": 0.8955356973404373,
+      "wild_type_mean_auc": 0.9709086916072883,
+      "auc_difference_mut_minus_wt": -0.07537299426685107,
+      "permutation_p": 0.1317365269461078
+    },
+    {
+      "drug": "CIPROFIBRATE (BRD:BRD-A49358627-001-14-6)",
+      "mutated_n": 6,
+      "wild_type_n": 3,
+      "mutated_mean_auc": 0.8938017053085613,
+      "wild_type_mean_auc": 0.9691237809943584,
+      "auc_difference_mut_minus_wt": -0.07532207568579707,
+      "permutation_p": 0.08782435129740519
+    },
+    {
+      "drug": "AZD3463 (BRD:BRD-K24593301-001-02-3)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.6958164979942175,
+      "wild_type_mean_auc": 0.7699165068428775,
+      "auc_difference_mut_minus_wt": -0.07410000884865997,
+      "permutation_p": 0.281437125748503
+    },
+    {
+      "drug": "BAFETINIB (BRD:BRD-A75975749-001-01-4)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8433841803978277,
+      "wild_type_mean_auc": 0.9172742582289363,
+      "auc_difference_mut_minus_wt": -0.07389007783110857,
+      "permutation_p": 0.0499001996007984
+    },
+    {
+      "drug": "ISTRADEFYLLINE (BRD:BRD-K87774949-001-03-9)",
+      "mutated_n": 3,
+      "wild_type_n": 2,
+      "mutated_mean_auc": 0.8930035377931019,
+      "wild_type_mean_auc": 0.9660107919796614,
+      "auc_difference_mut_minus_wt": -0.07300725418655951,
+      "permutation_p": 0.2894211576846307
+    },
+    {
+      "drug": "SB-590885 (BRD:BRD-K78809024-001-05-7)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8727931199965364,
+      "wild_type_mean_auc": 0.9440894835348332,
+      "auc_difference_mut_minus_wt": -0.07129636353829683,
+      "permutation_p": 0.06187624750499002
+    },
+    {
+      "drug": "SB-939 (BRD:BRD-K86797399-001-05-1)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.5307347630482745,
+      "wild_type_mean_auc": 0.6004832338917996,
+      "auc_difference_mut_minus_wt": -0.06974847084352509,
+      "permutation_p": 0.20159680638722555
+    },
+    {
+      "drug": "OLAPARIB (BRD:BRD-K02113016-001-19-6)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8934918416408292,
+      "wild_type_mean_auc": 0.9616491317546376,
+      "auc_difference_mut_minus_wt": -0.06815729011380844,
+      "permutation_p": 0.06786427145708583
+    },
+    {
+      "drug": "CGM097 (BRD:BRD-K79584249-001-01-3)",
+      "mutated_n": 5,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.8904123788264645,
+      "wild_type_mean_auc": 0.9561331074878248,
+      "auc_difference_mut_minus_wt": -0.06572072866136025,
+      "permutation_p": 0.32335329341317365
+    },
+    {
+      "drug": "AZ-628 (BRD:BRD-K05804044-001-18-5)",
+      "mutated_n": 7,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.6698613839044325,
+      "wild_type_mean_auc": 0.7350731291527117,
+      "auc_difference_mut_minus_wt": -0.06521174524827922,
+      "permutation_p": 0.4411177644710579
+    },
+    {
+      "drug": "FILGOTINIB (BRD:BRD-K16803204-001-01-6)",
+      "mutated_n": 3,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.9354609619298616,
+      "wild_type_mean_auc": 0.9998111306624272,
+      "auc_difference_mut_minus_wt": -0.0643501687325656,
+      "permutation_p": 0.1377245508982036
+    },
+    {
+      "drug": "TAK-632 (BRD:BRD-K31866293-001-01-6)",
+      "mutated_n": 6,
+      "wild_type_n": 4,
+      "mutated_mean_auc": 0.7187553628567439,
+      "wild_type_mean_auc": 0.7819084608120328,
+      "auc_difference_mut_minus_wt": -0.0631530979552889,
+      "permutation_p": 0.017964071856287425
+    }
+  ],
+  "warning": "Exploratory: small mutated group; AUC associations are not causal."
+}
